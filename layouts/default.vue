@@ -18,6 +18,15 @@
           <span />
           <span />
         </div>
+
+        <b-field>
+            <b-input placeholder="Search..."
+                type="search"
+                icon="magnify"
+                icon-clickable
+                @icon-click="searchIconClick">
+            </b-input>
+        </b-field>
       </div>
     </nav>
 
@@ -26,11 +35,17 @@
 </template>
 
 <style scoped lang="scss">
-  .navbar{
+  .navbar {
     background-color: #f46036;
 
-    a{
-      color: #fff;
+
+    .navbar-brand{
+
+      align-items: center;
+  
+      a{
+        color: #fff;
+      }
     }
   }
 </style>
