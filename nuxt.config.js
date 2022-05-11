@@ -13,12 +13,16 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+
+    link: [
+      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css' }
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-      "normalize.css/normalize.css","@/assets/scss/base.scss"
+      "normalize.css/normalize.css","@/assets/scss/base.scss", "@/assets/scss/custon.scss"
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
