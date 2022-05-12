@@ -2,6 +2,7 @@
   <div >
 
     <Header/>
+    <Banner/>
   
     <section>kdfh</section>
   </div>
