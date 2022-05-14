@@ -10,12 +10,10 @@
         aria-label="main navigation"
         >
         <div class="navbar-brand">
-            <a
-            class="navbar-item"
-            href="/"
-            >
-            busconomia
-            </a>
+
+            <NuxtLink  class="navbar-item" to="/">
+             busconomia
+            </NuxtLink>
 
             
 
@@ -37,12 +35,12 @@
 
             <div>
                
-                <b-button class="btn" type="is-ghost"><a href="/lojas"><p>Melhor lojas</p> <i class="ri-heart-3-line"></i></a></b-button>
-                <b-button class="btn" type="is-ghost"><a><p>Ofertas</p> <i class="ri-fire-line"></i></a></b-button>
-                <b-button class="btn" type="is-ghost"><a href="/cupons"><p>Cupons</p><i class="ri-price-tag-3-line"></i></a></b-button>
+                <b-button class="btn" type="is-ghost"><NuxtLink to="/lojas"><span>Melhor lojas</span> <i class="ri-heart-3-line"></i></NuxtLink></b-button>
+                <b-button class="btn" type="is-ghost"><NuxtLink to="/"><span>Ofertas</span> <i class="ri-fire-line"></i></NuxtLink></b-button>
+                <b-button class="btn" type="is-ghost"><NuxtLink to="/cupons"><span>Cupons</span><i class="ri-price-tag-3-line"></i></NuxtLink></b-button>
 
-
-                <button class="login"><a href="#"><p>Entrar</p><i class="ri-user-line"></i></a></button>
+                <button class="createUser" type="is-ghost"><NuxtLink to="/login"><span>Entrar</span></NuxtLink></button>
+                <button class="login"><NuxtLink to="/login"><span>Cadastrar</span><i class="ri-user-line"></i></NuxtLink></button>
             </div>
 
         </nav>
@@ -82,6 +80,18 @@
       }
     }
 
+    .createUser{
+        align-items: center;
+        background-color: transparent;
+        a{
+            color: #fff;
+            display: flex;
+            p{
+                margin: 0 3px;
+            }
+        }
+    }
+
     .login{
         align-items: center;
         background-color: #22120e5b;
@@ -105,7 +115,7 @@
         a{
             color: #fff;
             display: flex;
-            p{
+            span{
                 margin: 0 3px;
             }
         }

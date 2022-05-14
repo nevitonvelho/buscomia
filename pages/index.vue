@@ -267,11 +267,12 @@
     display: flex;
     flex-wrap: wrap;
     .card{
-      margin: 12px;
+      margin-right: 31px;
+      margin-bottom: 22px;
       border: 0.1rem solid rgba(0, 0, 0, 0.144);
       display: flex;
       flex-direction: column;
-      padding: 25px;
+      padding: 22px;
       max-width: 200px;
 
       .titleProduto{
