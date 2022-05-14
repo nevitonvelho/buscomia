@@ -2,9 +2,8 @@
   <div >
 
     <Header/>
-    <Banner/>
-  
-    <section>kdfh</section>
+    <Nuxt/>
+    
   </div>
 </template>
 

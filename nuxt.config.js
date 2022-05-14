@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'www',
+    title: 'Cupom de Desconto VÁLIDO Hoje → 100% Válido → busconomia.com.br',
     htmlAttrs: {
       lang: 'en'
     },
