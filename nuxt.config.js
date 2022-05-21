@@ -27,6 +27,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -42,7 +43,12 @@ export default {
     'nuxt-buefy',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+
+    '@nuxtjs/gtm',
   ],
+  gtm: {
+    id: 'GTM-TNN23S7',
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {

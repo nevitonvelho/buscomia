@@ -40,11 +40,12 @@
             </div>
 
             <div class="link">
-                <p>Apps</p>
-                <ul>
-                    <li><NuxtLink to="/">Trabalhe conosco</NuxtLink></li>
-                    <li><NuxtLinka to="/">busconomia na Mídia</NuxtLinka></li>
-                </ul>
+                <p>Baixe o app</p>
+                    <ul class="play-app">
+                        <NuxtLink to="/"><img src="../assets/img/play-store-tag.png" alt=""></NuxtLink>
+                        <NuxtLink to="/"><img src="../assets/img/app-store-tag.png" alt=""></NuxtLink>       
+                    </ul>
+                
 
                 <p>Siga o busconomia</p>
                 <ul class="redes-sociais">
@@ -70,8 +71,8 @@
 <style scoped lang='scss'>
     .container-footer{
         padding: 0px 52px;
-        background-color: #edf2fb;
-        color: #1a1a1a;
+        background-color: #2e294e;
+        color: #f1f1f1;
 
         .title-footer{
             padding: 22px;
@@ -83,13 +84,15 @@
 
         .link-container{
             display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
         }
 
         .link{
-            margin: 32px 0; 
-            width: 300px;
+            
+            
             p{
-                color: #072ac8;
+                color: #f46036;
                 font-size: 22px;
                 margin-top: 1rem;
             }
@@ -98,9 +101,13 @@
                 li{
                     a{
                         font-weight: 200;
-                        color: #1a1a1a;
+                        color: #ffffff;
                     }
                 }
+            }
+
+            .play-app{
+                margin-top: 1rem;
             }
 
             .redes-sociais{
@@ -122,7 +129,7 @@
             justify-content: center;
 
             span{
-                color:#072ac8;
+                color:#f46036;
                 margin: 0 6px
             }
         }

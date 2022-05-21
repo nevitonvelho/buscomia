@@ -97,6 +97,7 @@
       <h2 class="titleSectionPromo">Ofertas imperdíveis no Buscapé para você aproveita</h2>
        <div class="cardPromo">
          <div class="card">
+           <div class="iconFire"><span class="icon-fire"><i class="ri-fire-fill"></i></span></div>
             <!-- <span>kdfhdfh</span> -->
             <img src="../assets/img/cell.jpg" alt="Image produto">
 
@@ -108,6 +109,7 @@
          </div>
 
          <div class="card">
+           <div class="iconFire"><span class="icon-fire"><i class="ri-fire-fill"></i></span></div>
             <!-- <span>kdfhdfh</span> -->
             <img src="../assets/img/cell.jpg" alt="Image produto">
 
@@ -119,6 +121,7 @@
          </div>
 
          <div class="card">
+           <div class="iconFire"><span class="icon-fire"><i class="ri-fire-fill"></i></span></div>
             <!-- <span>kdfhdfh</span> -->
             <img src="../assets/img/cell.jpg" alt="Image produto">
 
@@ -130,6 +133,7 @@
          </div>
 
          <div class="card">
+           <div class="iconFire"><span class="icon-fire"><i class="ri-fire-fill"></i></span></div>
             <!-- <span>kdfhdfh</span> -->
             <img src="../assets/img/cell.jpg" alt="Image produto">
 
@@ -141,6 +145,7 @@
          </div>
 
          <div class="card">
+           <div class="iconFire"><span class="icon-fire"><i class="ri-fire-fill"></i></span></div>
             <!-- <span>kdfhdfh</span> -->
             <img src="../assets/img/cell.jpg" alt="Image produto">
 
@@ -150,6 +155,14 @@
               <h2>Smartphone <br> Samsung Galaxy A32 SM-A325M 128GB Android</h2>
             </div>
          </div>
+
+         
+
+         
+
+        
+
+        
        </div>
        
     </section>
@@ -162,8 +175,8 @@
 .contUm{
     padding: 0px 52px;
     text-align: start;
-    font-size: 21px;
-    color: #000;
+    font-size: 22px;
+    color: #3b3b3b;
 
     h2{
           font-weight: 600;
@@ -174,19 +187,22 @@
 .containerCard{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 
+  
 
   .card{
     align-items: center;
     justify-content: center;
     display: flex;
-    padding: 23px;
+    padding: 30px;
     height: 180px;
     flex-direction: column;
     text-decoration: none;
     cursor: pointer;
-    margin: 10px;
-      
+    margin-bottom: 10px;
+
+
     img{
       width: 126px;
     }
@@ -210,7 +226,7 @@
 .bannerPromo{
     background-color: #edf2fb;
     display: flex;
-    border-radius: 22px;
+    border-radius: 12px;
     padding: 42px;
     align-items: center;
     margin: 22px 0;
@@ -228,7 +244,7 @@
 
       h2{
         font-size: 22px;
-        color: #072ac8;
+        color: #f46036;
       }
 
       p{
@@ -240,7 +256,7 @@
 
       button{
         padding: 18px;
-        background-color: #072ac8;
+        background-color: #f46036;
         
         border-radius: 12px;
         display: flex;
@@ -266,14 +282,35 @@
   .cardPromo{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     .card{
-      margin-right: 31px;
+     
       margin-bottom: 22px;
       border: 0.1rem solid rgba(0, 0, 0, 0.144);
       display: flex;
       flex-direction: column;
       padding: 22px;
       max-width: 200px;
+
+
+      .iconFire{
+        margin-bottom: 1rem;
+        cursor: pointer;
+        .icon-fire{
+          padding: 3px 7px;
+          border-radius: 100%;
+          border: 2px solid #f46036;
+          color: #f46036;
+          position: absolute;
+          left: 150px;
+          top: 12px;
+          transition: 0.5s;
+          &:hover{
+            background: #f46036;
+            color: #ffffff;
+          }
+      }
+      }
 
       .titleProduto{
         h2{
@@ -292,7 +329,7 @@
       }
 
       .precopromo{
-        color: #072ac8;
+        color: #f46036;
         font-size: 1.2rem;
         font-weight: 600;
       }
