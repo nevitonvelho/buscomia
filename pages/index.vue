@@ -1,6 +1,6 @@
 <template>
   <mean class="contentPage">
-    <Banner/>
+    <Banner class="banner"/>
     <section class="contUm">
       <h2>Lojas online em destaque</h2>
 
@@ -10,7 +10,6 @@
             <p>8% de volta</p>
             <span>desconto</span>
         </div>
-
         <div class="card">
             <img src="../assets/img/aliexpress.png" alt="logo Empresa promoção">
             <p>8% de volta</p>
@@ -171,6 +170,10 @@
 
 
 <style scoped lang="scss">
+.banne{
+    margin: 0;
+  }
+
 
 .contUm{
     padding: 0px 52px;
@@ -183,6 +186,8 @@
     }
     
   }
+
+  
 
 .containerCard{
   display: flex;

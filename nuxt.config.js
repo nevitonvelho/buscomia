@@ -35,7 +35,17 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxtjs/google-fonts',
   ],
+
+  googleFonts: {
+    families: {
+      Lexend: {
+        wght: [400, 600, 800],
+        ital: [300]
+      },
+    }
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -58,5 +68,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    
   }
 }

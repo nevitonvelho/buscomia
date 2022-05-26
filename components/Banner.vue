@@ -6,6 +6,7 @@
             <div class="slide"><img src="../assets/img/teste2.png" alt="icon"></div>
             <div class="slide"><img src="../assets/img/teste2.png" alt="icon"></div>
             <div class="slide"><img src="../assets/img/teste2.png" alt="icon"></div>
+            
         </VueSlickCarousel>
     </div>
 </template>
@@ -14,11 +15,11 @@
 <style scoped lang="scss">
     .container{
         height: 60vh;
-        max-width: 1300px;
+        max-width: 1280px;
     }
 
     .slide{
-        padding: 10px;
+        padding: 3px;
     }
    
 </style>
