@@ -71,7 +71,7 @@
 <style scoped lang='scss'>
     .container-footer{
         padding: 0px 52px;
-        background-color: #2e294e;
+        background-color: #072ac8;
         color: #f1f1f1;
 
         .title-footer{
@@ -92,7 +92,8 @@
             
             
             p{
-                color: #f46036;
+                color: #e2fdff;
+                
                 font-size: 22px;
                 margin-top: 1rem;
             }
@@ -129,7 +130,7 @@
             justify-content: center;
 
             span{
-                color:#f46036;
+                color:#072ac8;
                 margin: 0 6px
             }
         }

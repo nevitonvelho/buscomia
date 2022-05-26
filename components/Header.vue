@@ -52,7 +52,7 @@
 <style scoped lang="scss">
 
 .banner{
-    color: #f46036;
+    color: #072ac8;
     font-weight: 600;
     padding: 10px;
     display: flex;
@@ -65,10 +65,10 @@
     }
 }
  .heder-container{
-     background-color: #f46036;
+     background-color: #072ac8;
    
    .navbar {
-    background-color: #f46036;
+    background-color: #072ac8;
     justify-content: space-between;
     padding: 10px 0;
     margin: 0 32px;

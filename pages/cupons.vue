@@ -74,13 +74,13 @@
   
           span{
             
-            color: #f46036;
+            color: #072ac8;
           }
         }
   
         button{
           padding: 22px;
-          background-color: #f46036;
+          background-color: #072ac8;
           border-radius: 30px;
           color: #fff;
           cursor: pointer;

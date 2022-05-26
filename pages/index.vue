@@ -249,7 +249,7 @@
 
       h2{
         font-size: 22px;
-        color: #f46036;
+        color: #072ac8;
       }
 
       p{
@@ -261,7 +261,7 @@
 
       button{
         padding: 18px;
-        background-color: #f46036;
+        background-color: #072ac8;
         
         border-radius: 12px;
         display: flex;
@@ -304,14 +304,14 @@
         .icon-fire{
           padding: 3px 7px;
           border-radius: 100%;
-          border: 2px solid #f46036;
-          color: #f46036;
+          border: 2px solid #072ac8;
+          color: #072ac8;
           position: absolute;
           left: 150px;
           top: 12px;
           transition: 0.5s;
           &:hover{
-            background: #f46036;
+            background: #072ac8;
             color: #ffffff;
           }
       }
@@ -334,7 +334,7 @@
       }
 
       .precopromo{
-        color: #f46036;
+        color: #072ac8;
         font-size: 1.2rem;
         font-weight: 600;
       }
